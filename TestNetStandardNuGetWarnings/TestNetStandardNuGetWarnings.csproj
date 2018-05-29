@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+		<!--<TargetFramework>netstandard16</TargetFramework>-->
+		<!--<PackageTargetFallback>net462</PackageTargetFallback>-->
+		<!--<AssetTargetFallback>net462</AssetTargetFallback>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AvalonEdit" Version="5.0.4" />
+    <PackageReference Include="System.ComponentModel.EventBasedAsync" Version="4.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.1" />
+    <PackageReference Include="NuGet.VisualStudio.Common" Version="4.6.2" />
+    <!--<PackageReference Include="System.Net.Http" Version="4.0.2" />-->
+  </ItemGroup>
+</Project>
